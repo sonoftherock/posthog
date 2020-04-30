@@ -86,6 +86,7 @@ function filtersFromParams() {
     filters.events = filters.events && JSON.parse(filters.events)
     filters.events = Array.isArray(filters.events) ? filters.events : []
     filters.properties = filters.properties ? JSON.parse(filters.properties) : {}
+    filters.breakdown = filters.breakdown && JSON.parse(filters.breakdown)
     return cleanFilters(filters)
 }
 
