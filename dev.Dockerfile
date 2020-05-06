@@ -25,7 +25,7 @@ RUN mkdir /code/frontend/dist
 
 COPY . /code/
 
-RUN DATABASE_URL='postgres:///' REDIS_URL='redis:///' python manage.py collectstatic --noinput
+RUN DATABASE_URL='postgres://posthog:posthog@elephant.sonoftherock.5432/posthog' REDIS_URL='redis://redistest.sonoftherock:6379/' python manage.py collectstatic --noinput
 
 EXPOSE 8000
 CMD ["./bin/docker-dev"]
