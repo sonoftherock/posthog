@@ -10,8 +10,6 @@ PostHog is open source product analytics, built for developers. Automate the col
 
 <a href="https://heroku.com/deploy?template=https://github.com/posthog/posthog"><img src="https://www.herokucdn.com/deploy/button.svg" width="250px" /></a>
 
-<a target="_blank" href="https://dashboard.getporter.dev"><img src="https://storage.cloud.google.com/porter-asssets/porter-develop.svg" width="250px" /></a>
-
 See [PostHog docs](https://docs.posthog.com) for in-depth walk throughs on functionality.
 
 ![PostHog dashboard screenshot](https://posthog.com/wp-content/uploads/2020/02/Screenshot-2020-02-13-at-23.14.36-2.png)
@@ -66,6 +64,10 @@ This image has everything you need to try out PostHog locally! It will set up a 
 ## Developing locally
 
 [See docs for developing locally](https://docs.posthog.com/#/developing-locally)
+
+Don't want to install or run anything locally? Develop remotely on Porter.
+
+<a target="_blank" href="https://dashboard.getporter.dev"><img src="https://storage.googleapis.com/porter-asssets/porter-develop.svg" width="250px" /></a>
 
 ## Open source / Paid
 
